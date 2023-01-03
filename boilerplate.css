@@ -105,7 +105,21 @@ sub { bottom: -0.25em; }
    Lists
    ========================================================================== */
 
-ul, ol { margin: 1em 0; padding: 0 0 0 40px; }
+ul, ol {
+	background-color: rgba(0,102,0,1);
+	border-top-style: outset;
+	border-right-style: outset;
+	border-bottom-style: outset;
+	border-left-style: outset;
+	border-top-color: rgba(0,255,0,1);
+	border-right-color: rgba(0,255,0,1);
+	border-bottom-color: rgba(0,255,0,1);
+	border-left-color: rgba(0,255,0,1);
+	background-repeat: no-repeat;
+	color: rgba(0,255,0,1);
+	margin: 2%;
+	padding: 0.5%;
+}
 dd { margin: 0 0 0 40px; }
 nav ul, nav ol { list-style: none; list-style-image: none; margin: 0; padding: 0; }
 
